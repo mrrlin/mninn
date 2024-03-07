@@ -1,11 +1,16 @@
 .header {
-  padding-top: 30px;
+  position: fixed;
+  height: 100px;
+  background-color: var(--main-background-color, #f6f2ef);
+  width: 100%;
 }
 
 .header__wrapper {
   display: flex;
+  gap: 20px;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
 }
 
 .header__main-page-link {
@@ -24,7 +29,6 @@
   gap: 20px;
   font-weight: 500;
   font-size: 20px;
-  /* text-transform: uppercase; */
 }
 
 .header__nav-link--underline {

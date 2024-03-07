@@ -6,5 +6,8 @@
 
 @import url(header.css);
 
+/* home-page */
+@import url(main/banner.css);
+
 /* variables */
 @import url(var.css);

@@ -1,0 +1,33 @@
+.banner {
+  background-image: url(../../img/tmp-banner.jpg);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 100px;
+}
+
+.banner__wrapper {
+  position: absolute;
+  right: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--main-background-color, #f6f2ef);
+  max-width: 800px;
+  text-align: center;
+}
+
+.banner__title {
+  font-family: 'Rubik Scribble';
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.banner__subtitle {
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 15px
+}
+
+.banner__description {
+  text-align: right;
+}

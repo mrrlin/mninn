@@ -70,3 +70,7 @@ fieldset {
   max-width: 1240px;
   padding: 0 30px;
 }
+
+.section {
+  padding: 50px 0;
+}
