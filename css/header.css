@@ -3,6 +3,7 @@
   height: 100px;
   background-color: var(--main-background-color, #f6f2ef);
   width: 100%;
+  z-index: 1;
 }
 
 .header__wrapper {

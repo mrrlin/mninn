@@ -10,5 +10,7 @@
 @import url(main/banner.css);
 @import url(main/popular.css);
 
+@import url(main/popular-test.css);
+
 /* variables */
 @import url(var.css);
