@@ -5,10 +5,12 @@
 @import url(fonts.css);
 
 @import url(header.css);
+@import url(footer.css);
 
 /* home-page */
 @import url(main/banner.css);
 @import url(main/popular.css);
+@import url(main/about.css);
 
 @import url(main/popular-test.css);
 
