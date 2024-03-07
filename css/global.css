@@ -15,9 +15,13 @@ body {
   min-width: 320px;
   min-height: 100vh;
 
+  font-family: 'Comfortaa';
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
+
+  background-color: var(--main-background-color, #f6f2ef);
+  color: var(--main-text-color, #322e2b);
 }
 
 img {

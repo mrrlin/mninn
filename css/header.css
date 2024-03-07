@@ -1,0 +1,36 @@
+.header {
+  padding-top: 30px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__main-page-link {
+  text-decoration: none;
+}
+
+.header__logo {
+  font-family: 'Gruppo';
+  font-size: 60px;
+  letter-spacing: 4px;
+}
+
+/* navigation */
+.header__nav-list {
+  display: flex;
+  gap: 20px;
+  font-weight: 500;
+}
+
+.header__nav-link {
+  text-decoration: none;
+}
+
+/* icons */
+.header__actions-list {
+  display: flex;
+  gap: 15px;
+}
