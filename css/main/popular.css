@@ -1,0 +1,26 @@
+.popular {
+  padding-top: 120px;
+  background-color:  #eae6ca;
+}
+
+.popular__wrapper {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 60px;
+}
+
+.popular__img {
+  width: 550px;
+  margin-bottom: 10px;
+}
+
+.popular__item-name {
+  margin-bottom: 5px;
+}
+
+.popular__item-price {
+  font-size: 29px;
+  font-weight: bold;
+}

@@ -1,12 +1,17 @@
 .banner {
   background-image: url(../../img/tmp-banner.jpg);
-  height: 90vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 100px;
 }
 
 .banner__wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.banner__wrapper-items {
   position: absolute;
   right: 100px;
   top: 50%;
@@ -17,9 +22,10 @@
 }
 
 .banner__title {
-  font-family: 'Rubik Scribble';
+  /* font-family: 'Rubik Scribble'; */
   font-size: 70px;
-  margin-bottom: 20px;
+  font-weight: 500;
+  margin-bottom: 40px;
 }
 
 .banner__subtitle {
@@ -30,4 +36,17 @@
 
 .banner__description {
   text-align: right;
+}
+
+.banner__scroll-to-next-block {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 0;
+}
+
+.banner__scroll-to-next-block:hover {
+  background-color: var(--accent-color);
+  border-radius: 50%;
 }
