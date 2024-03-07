@@ -14,7 +14,7 @@
 
 .header__logo {
   font-family: 'Gruppo';
-  font-size: 60px;
+  font-size: 53px;
   letter-spacing: 4px;
 }
 
@@ -23,10 +23,42 @@
   display: flex;
   gap: 20px;
   font-weight: 500;
+  font-size: 20px;
+  /* text-transform: uppercase; */
 }
 
-.header__nav-link {
+.header__nav-link--underline {
+  position: relative;
+  color: var(--main-text-color, #322e2b);
   text-decoration: none;
+}
+
+.header__nav-link--underline:hover {
+  color: var(--accent-color, #a1746e);
+}
+
+.header__nav-link--underline:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: var(--accent-color, #a1746e);
+  transition: width 1s;
+}
+
+.header__nav-link--underline:hover:after {
+  content: '';
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px;
+  background-color: var(--accent-color, #a1746e);
+  transition: width 1s;
 }
 
 /* icons */

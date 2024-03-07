@@ -1,10 +1,10 @@
 @import url(normalize.css);
 @import url(global.css);
 
-/* variables */
-@import url(var.css);
-
 /* fonts */
 @import url(fonts.css);
 
 @import url(header.css);
+
+/* variables */
+@import url(var.css);
