@@ -1,0 +1,8 @@
+.footer {
+  background-color: #eae6ca;
+}
+
+.footer__social-media-list {
+  display: flex;
+  gap: 15px;
+}

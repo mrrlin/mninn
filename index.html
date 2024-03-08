@@ -1,11 +1,313 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MNINN</title>
-</head>
-<body>
-  <h1>MNINN</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MNINN</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Gruppo&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik+Scribble&display=swap"
+      rel="stylesheet" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- scripts -->
+    <script src="js/script.js" defer></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <a href="index.html" class="header__main-page-link">
+            <h1 class="header__logo">MNINN</h1>
+          </a>
+
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="#"
+                  class="header__nav-link header__nav-link--underline">
+                  О бренде
+                </a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#"
+                  class="header__nav-link header__nav-link--underline">
+                  Каталог
+                </a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#"
+                  class="header__nav-link header__nav-link--underline">
+                  Калькулятор
+                </a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#"
+                  class="header__nav-link header__nav-link--underline">
+                  Доставка и оплата
+                </a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#"
+                  class="header__nav-link header__nav-link--underline">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="header__actions">
+            <ul class="header__actions-list">
+              <li class="header__actions-item">
+                <a href="" class="header__actions-link">
+                  <lord-icon
+                    src="https://cdn.lordicon.com/kkvxgpti.json"
+                    trigger="hover"
+                    style="width: 40px; height: 40px">
+                  </lord-icon>
+                </a>
+              </li>
+              <li class="header__actions-item">
+                <a href="" class="header__actions-link">
+                  <lord-icon
+                    src="https://cdn.lordicon.com/xyboiuok.json"
+                    trigger="morph"
+                    state="morph-heart"
+                    style="width: 40px; height: 40px">
+                  </lord-icon>
+                </a>
+              </li>
+              <li class="header__actions-item">
+                <a href="" class="header__actions-link">
+                  <lord-icon
+                    src="https://cdn.lordicon.com/evyuuwna.json"
+                    trigger="hover"
+                    style="width: 40px; height: 40px">
+                  </lord-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="section banner">
+        <div class="banner__wrapper">
+          <div class="banner__wrapper-items">
+            <h2 class="banner__title">Заголовок</h2>
+            <h3 class="banner__subtitle">Подзаголовок</h3>
+            <p class="banner__description">
+              Какое-то описание, которое ещё не придумано, но оно как кот
+              Шрёдингера: ты не узнаешь, находится ли оно в материальном
+              состоянии или всё ещё невидимо для глаз. Надеюсь здесь уже
+              достаточно многА букв.
+            </p>
+          </div>
+
+          <a href="#popular" class="banner__scroll-to-next-block">
+            <svg
+              width="97"
+              height="97"
+              viewBox="0 0 97 97"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <circle
+                id="Ellipse 1"
+                cx="48.5"
+                cy="48.5"
+                r="48"
+                stroke="white" />
+              <rect
+                id="Rectangle 23"
+                x="34.4255"
+                y="43.9162"
+                width="1.82001"
+                height="20.0201"
+                transform="rotate(-44.9975 34.4255 43.9162)"
+                fill="white" />
+              <rect
+                id="Rectangle 24"
+                x="48.5807"
+                y="58.0737"
+                width="1.82001"
+                height="20.0201"
+                transform="rotate(-134.997 48.5807 58.0737)"
+                fill="white" />
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <section class="section popular" id="popular">
+        <div class="container">
+          <h2 class="section__title">Популярное</h2>
+
+          <div class="popular__wrapper">
+            <a href="#" class="popular__card">
+              <figure class="popular__card-wrapper">
+                <img
+                  src="img/square-vases.jpg"
+                  alt="Тестовая картинка"
+                  class="popular__img popular__img--squre" />
+                <figcaption class="popular__item-name">
+                  Корсет 'Валентайн'
+                </figcaption>
+                <span class="popular__item-price">100$</span>
+              </figure>
+            </a>
+            <a href="#" class="popular__card">
+              <figure class="popular__card-wrapper">
+                <img
+                  src="img/vertical-flower.jpg"
+                  alt="Тестовая картинка"
+                  class="popular__img popular__img--vertical" />
+                <figcaption class="popular__item-name">
+                  Корсет 'Биба'
+                </figcaption>
+                <span class="popular__item-price">100$</span>
+              </figure>
+            </a>
+            <a href="#" class="popular__card">
+              <figure class="popular__card-wrapper">
+                <img
+                  src="img/vertical-vase.jpg"
+                  alt="Тестовая картинка"
+                  class="popular__img popular__img--vertical" />
+                <figcaption class="popular__item-name">
+                  Корсет 'Боба'
+                </figcaption>
+                <span class="popular__item-price">100$</span>
+              </figure>
+            </a>
+            <a href="#" class="popular__card">
+              <figure class="popular__card-wrapper">
+                <img
+                  src="img/square-leafs.jpg"
+                  alt="Тестовая картинка"
+                  class="popular__img popular__img--squre" />
+                <figcaption class="popular__item-name">
+                  Корсет 'Валентайн1'
+                </figcaption>
+                <span class="popular__item-price">100$</span>
+              </figure>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section popular-test">
+        <img
+          src="img/table.jpg"
+          alt="Тестовое изображение"
+          class="popular-test__img" />
+
+        <div class="popular-test__items-wrapper">
+          <ul class="popular-test__list">
+            <li class="popular-test__item">
+              <a href="#" class="popular-test__item-link">
+                <img
+                  class="popular-test__item-img"
+                  src="img/shadow.jpg"
+                  alt="Тестовое изображение" />
+              </a>
+            </li>
+            <li class="popular-test__item">
+              <a href="#" class="popular-test__item-link">
+                <img
+                  class="popular-test__item-img"
+                  src="img/shadow.jpg"
+                  alt="Тестовое изображение" />
+              </a>
+            </li>
+            <li class="popular-test__item">
+              <a href="#" class="popular-test__item-link">
+                <img
+                  class="popular-test__item-img"
+                  src="img/shadow.jpg"
+                  alt="Тестовое изображение" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section about">
+        <div class="container">
+          <h2 class="section__title">О бренде</h2>
+
+          <div class="about__description">
+            <p class="about__description-text">
+              Какой-то текст, описывающий что-то, опять же ещё не придуман, а
+              мне уже очень хочется спать, но не хочется идти спать. Диллема?
+              Да. А как правильно пишется слово диллема? Я не помню, поэтому
+              написала, как чувствую. В любом случае: я художник, я так вижу.
+            </p>
+
+            <img src="img/square-leafs.jpg" alt="Тестовое изображение" class="about__description-img">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="section footer__section">
+        <div class="container">
+          <div class="footer__social-media">
+            <ul class="footer__social-media-list">
+              <li class="footer__social-media-item">
+                <a href="#" class="footer__social-media-link">
+                  <lord-icon
+                    src="https://cdn.lordicon.com/kkvxgpti.json"
+                    trigger="hover"
+                    style="width: 40px; height: 40px">
+                  </lord-icon>
+                </a>
+              </li>
+              <li class="footer__social-media-item">
+                <a href="#" class="footer__social-media-link">
+                  <lord-icon
+                    src="https://cdn.lordicon.com/kkvxgpti.json"
+                    trigger="hover"
+                    style="width: 40px; height: 40px">
+                  </lord-icon>
+                </a>
+              </li>
+              <li class="footer__social-media-item">
+                <a href="#" class="footer__social-media-link">
+                  <lord-icon
+                    src="https://cdn.lordicon.com/kkvxgpti.json"
+                    trigger="hover"
+                    style="width: 40px; height: 40px">
+                  </lord-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__nav">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">
+                  Доставка и оплата
+                </a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>

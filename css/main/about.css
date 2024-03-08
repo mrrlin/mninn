@@ -1,0 +1,9 @@
+.about__description {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.about__description-img {
+  width: 560px;
+}

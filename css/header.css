@@ -1,0 +1,73 @@
+.header {
+  position: fixed;
+  height: 100px;
+  background-color: var(--main-background-color, #f6f2ef);
+  width: 100%;
+  z-index: 1;
+}
+
+.header__wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.header__main-page-link {
+  text-decoration: none;
+}
+
+.header__logo {
+  font-family: 'Gruppo';
+  font-size: 53px;
+  letter-spacing: 4px;
+}
+
+/* navigation */
+.header__nav-list {
+  display: flex;
+  gap: 20px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.header__nav-link--underline {
+  position: relative;
+  color: var(--main-text-color, #322e2b);
+  text-decoration: none;
+}
+
+.header__nav-link--underline:hover {
+  color: var(--accent-color, #a1746e);
+}
+
+.header__nav-link--underline:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: var(--accent-color, #a1746e);
+  transition: width 1s;
+}
+
+.header__nav-link--underline:hover:after {
+  content: '';
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px;
+  background-color: var(--accent-color, #a1746e);
+  transition: width 1s;
+}
+
+/* icons */
+.header__actions-list {
+  display: flex;
+  gap: 15px;
+}
