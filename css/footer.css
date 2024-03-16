@@ -1,5 +1,5 @@
 .footer {
-  background-color: #eae6ca;
+  background-color: var(--accent-color);
 }
 
 .footer__social-media-list {

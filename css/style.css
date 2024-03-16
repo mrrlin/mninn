@@ -12,7 +12,8 @@
 @import url(main/popular.css);
 @import url(main/about.css);
 
-@import url(main/popular-test.css);
+/* catalog */
+@import url(catalog/catalog.css);
 
 /* variables */
 @import url(var.css);

@@ -1,0 +1,37 @@
+.catalog {
+  padding: 120px 0;
+}
+
+.catalog__title {
+  margin-bottom: 130px;
+}
+
+.catalog__wrapper {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 60px;
+}
+
+.catalog__card:first-of-type {
+  align-self: flex-start;
+}
+
+.catalog__card {
+  margin-top: -70px;
+}
+
+.catalog__img {
+  width: 550px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.catalog__item-name {
+  margin-bottom: 5px;
+}
+
+.catalog__item-price {
+  font-size: 29px;
+  font-weight: bold;
+}

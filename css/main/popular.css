@@ -1,25 +1,25 @@
 .popular {
-  padding-top: 120px;
-}
-
-.popular__wrapper {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  grid-template-columns: repeat(2, 1fr);
-  row-gap: 60px;
+  display: flex;
+  background-color: var(--accent-color, #a1746e);
+  padding: 0;
 }
 
 .popular__img {
-  width: 550px;
-  margin-bottom: 10px;
+  height: 90vh;
 }
 
-.popular__item-name {
-  margin-bottom: 5px;
+.popular__items-wrapper {
+  display: flex;
+  align-items:center;
+  margin-left: -5%;
 }
 
-.popular__item-price {
-  font-size: 29px;
-  font-weight: bold;
+.popular__list {
+  display: flex;
+  gap: 20px;
+  z-index: 0;
+}
+
+.popular__item-img {
+  width: 400px;
 }
