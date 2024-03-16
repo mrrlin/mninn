@@ -1,0 +1,35 @@
+.delivery-info {
+  position: relative;
+}
+
+.delivery__info::after {
+  content: '_______________________________________________';
+  display: inline-block;
+  /* width: 100%; */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--accent-color);
+}
+
+.section__subtitle {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.delivery__info-item {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.delivery__item-title {
+  margin-bottom: 10px;
+}
+
+.delivery__text {
+  font-weight: 400;
+}
+
+.payment__info {
+  padding-top: 50px;
+}

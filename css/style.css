@@ -15,5 +15,8 @@
 /* catalog */
 @import url(catalog/catalog.css);
 
+/* delivery */
+@import url(delivery/delivery.css);
+
 /* variables */
 @import url(var.css);
