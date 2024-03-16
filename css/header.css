@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  height: 100px;
+  height: 90px;
   background-color: var(--main-background-color, #f6f2ef);
   width: 100%;
   z-index: 1;
@@ -11,7 +11,7 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 .header__main-page-link {
